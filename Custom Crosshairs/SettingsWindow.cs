@@ -16,5 +16,12 @@ namespace Custom_Crosshairs
         {
             InitializeComponent();
         }
+
+        private void SaveNReturn(object sender, MouseEventArgs e)
+        {
+            MenuWindow menuWindow = new MenuWindow();
+            menuWindow.Show();
+            this.Hide();
+        }
     }
 }

@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Custom Crosshairs")]
-[assembly: AssemblyDescription("The perfect application to allow the display of preset or custom crosshairs.")]
+[assembly: AssemblyDescription("The perfect application to allow the display of preset or custom crosshairs at the center of the screen.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Lyco-Mirai Systems")]
+[assembly: AssemblyCompany("British Lyco-Mirai Systems")]
 [assembly: AssemblyProduct("CustomCrosshairs.Properties")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyCopyright("Copyright © 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,7 +30,7 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.0.1.1")]
-[assembly: AssemblyFileVersion("0.0.1.1")]
+[assembly: AssemblyVersion("0.0.0.7")]
+[assembly: AssemblyFileVersion("0.0.0.7")]
 [assembly: NeutralResourcesLanguage("en-GB")]
 

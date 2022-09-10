@@ -15,25 +15,48 @@ namespace Custom_Crosshairs
         public MenuWindow()
         {
             InitializeComponent();
+            menuNotifyIcon.Visible = false;
         }
+
+        CrosshairWindow crosshair = new CrosshairWindow();
+        SettingsWindow settings = new SettingsWindow();
 
         private void ActivateCrosshair(object sender, MouseEventArgs e)
         {
-            CrosshairWindow crosshair = new CrosshairWindow();
             crosshair.Show();
-            this.Hide();
         }
 
         private void EnterSettings(object sender, MouseEventArgs e)
         {
-            SettingsWindow settings = new SettingsWindow();
             settings.Show();
+            crosshair.Hide();
             this.Hide();
+            menuNotifyIcon.Visible = false;
+        }
+
+        private void DeactivateCrosshair(object sender, MouseEventArgs e)
+        {
+            crosshair.Hide();
         }
 
         private void QuitProgram(object sender, MouseEventArgs e)
         {
+            crosshair.Close();
+            settings.Close();
             this.Close();
+            Application.Exit();
+        }
+
+        private void HideWindow(object sender, EventArgs e)
+        {
+            this.Hide();
+            menuNotifyIcon.Visible = true;
+        }
+
+        private void UnhideWindow(object sender, MouseEventArgs e)
+        {
+            this.Show();
+            menuNotifyIcon.Visible = false;
         }
     }
 }

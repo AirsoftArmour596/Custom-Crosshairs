@@ -9,3 +9,4 @@ C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\
 C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom Crosshairs.exe
 C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom Crosshairs.pdb
 C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom_Crosshairs.MenuWindow.resources
+C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom_Crosshairs.SettingsWindow.resources

@@ -43,5 +43,17 @@ namespace Custom_Crosshairs {
                 return ((string)(this["defaultImagePath"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("f")]
+        public string none {
+            get {
+                return ((string)(this["none"]));
+            }
+            set {
+                this["none"] = value;
+            }
+        }
     }
 }

@@ -109,5 +109,35 @@ namespace Custom_Crosshairs.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Crosshair_Drop_Large {
+            get {
+                object obj = ResourceManager.GetObject("Crosshair_Drop_Large", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Crosshair_Drop_Medium {
+            get {
+                object obj = ResourceManager.GetObject("Crosshair_Drop_Medium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Crosshair_Drop_Small {
+            get {
+                object obj = ResourceManager.GetObject("Crosshair_Drop_Small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
