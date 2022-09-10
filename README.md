@@ -7,13 +7,13 @@ Select from a variety of preset crosshairs or even make your own to personalise 
 / / / / / / / / / / Start of Devlog \ \ \ \ \ \ \ \ \ \ 
 
 - V0.00.7, "Hellfire v2" [1930hrs 10/09/22]
-Updated Main Menu
-Allowed Hiding of Main Menu while Crosshair instance is running
-Updated and Expaned Framework for the Settings Menu
+Updated Main Menu.
+Allowed Hiding of Main Menu while Crosshair instance is running.
+Updated and Expaned Framework for the Settings Menu.
 
 - V0.00.3, "Hellfire v1" [1700hrs 10/09/22]
-Uploaded to Gitgub for the first time
-Added Main Menu
-Added Framework for the Settings Menu
+Uploaded to Gitgub for the first time.
+Added Main Menu.
+Added Framework for the Settings Menu.
 
 \ \ \ \ \ \ \ \ \ \ \ End of Devlog / / / / / / / / / / /
