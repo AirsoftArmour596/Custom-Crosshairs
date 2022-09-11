@@ -1,4 +1,4 @@
-Custom Crosshairs - Version 0.01.3 "Hellfire III"
+Custom Crosshairs - Version 0.01.7 "Hellfire III"
 
 Struggling to keep your eye on the center of your screen? Or maybe you want to 
 destroy your enemies with compliete precision in games otherwise designed to prevent such? 
@@ -7,7 +7,7 @@ make your own to personalise the center of the screen!
 
 / / / / / / / / / / Start of Devlog \ \ \ \ \ \ \ \ \ \
 
-V0.01.3, "Hellfire III" [0130hrs, 11/09/22]
+V0.01.7, "Hellfire III" [0130hrs, 11/09/22]
 Expanded Preset Crosshair Collection to Eight (8) Images
 Added Functional Settings Menu that saves User Preferances
 Expanded Settings Menu to allow Previews of Selected Crosshair
