@@ -2,14 +2,11 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Custom_Crosshairs" GeneratedClassName="UserPreferances">
   <Profiles />
   <Settings>
-    <Setting Name="userImagePath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">/data/images/Advanced/Crosshair_Drop_Large.png</Value>
+    <Setting Name="preferedCrosshair" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Simple_Crosshair.png</Value>
     </Setting>
-    <Setting Name="defaultImagePath" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">/data/images/Simple/Basic_Crosshair.png</Value>
-    </Setting>
-    <Setting Name="none" Type="System.String" Scope="User">
-      <Value Profile="(Default)">f</Value>
+    <Setting Name="defaultCrosshair" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Simple_Crosshair.png</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -1,4 +1,17 @@
-﻿namespace Custom_Crosshairs
+﻿using System;
+using System.IO;
+using System.Diagnostics;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Resources;
+
+namespace Custom_Crosshairs
 {
     partial class MenuWindow
     {
@@ -38,6 +51,7 @@
             this.Stop = new System.Windows.Forms.Button();
             this.HideMenu = new System.Windows.Forms.Button();
             this.menuNotifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.CrossairPreview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titleBox)).BeginInit();
             this.SuspendLayout();
@@ -45,6 +59,7 @@
             // Start
             // 
             this.Start.BackColor = System.Drawing.SystemColors.Control;
+            this.Start.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Start.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Start.Location = new System.Drawing.Point(12, 226);
             this.Start.Name = "Start";
@@ -57,6 +72,7 @@
             // Settings
             // 
             this.Settings.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.Settings.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Settings.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Settings.Location = new System.Drawing.Point(12, 296);
             this.Settings.Name = "Settings";
@@ -69,6 +85,7 @@
             // Quit
             // 
             this.Quit.BackColor = System.Drawing.Color.Maroon;
+            this.Quit.Cursor = System.Windows.Forms.Cursors.Help;
             this.Quit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Quit.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Quit.Location = new System.Drawing.Point(12, 436);
@@ -82,7 +99,7 @@
             // CrossairPreview
             // 
             this.CrossairPreview.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.CrossairPreview.BackgroundImage = global::Custom_Crosshairs.Properties.Resources.Basic_Crosshair;
+            this.CrossairPreview.BackgroundImage = Image.FromFile(Directory.GetCurrentDirectory() + "\\data\\crosshairs\\" + UserPreferances.Default.preferedCrosshair);
             this.CrossairPreview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.CrossairPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CrossairPreview.Location = new System.Drawing.Point(244, 244);
@@ -102,6 +119,7 @@
             // Stop
             // 
             this.Stop.BackColor = System.Drawing.Color.Maroon;
+            this.Stop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Stop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Stop.ForeColor = System.Drawing.SystemColors.Control;
             this.Stop.Location = new System.Drawing.Point(12, 366);
@@ -115,6 +133,7 @@
             // HideMenu
             // 
             this.HideMenu.BackColor = System.Drawing.SystemColors.Control;
+            this.HideMenu.Cursor = System.Windows.Forms.Cursors.Help;
             this.HideMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.HideMenu.Location = new System.Drawing.Point(12, 194);
             this.HideMenu.Name = "HideMenu";
@@ -134,12 +153,23 @@
             this.menuNotifyIcon.Visible = true;
             this.menuNotifyIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(this.UnhideWindow);
             // 
+            // progressBar1
+            // 
+            this.progressBar1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.progressBar1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.progressBar1.Location = new System.Drawing.Point(244, 228);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(256, 10);
+            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.progressBar1.TabIndex = 7;
+            // 
             // MenuWindow
             // 
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(512, 512);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.HideMenu);
             this.Controls.Add(this.Stop);
             this.Controls.Add(this.titleBox);
@@ -150,11 +180,17 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.TransparencyKey = System.Drawing.Color.Magenta;
             ((System.ComponentModel.ISupportInitialize)(this.CrossairPreview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titleBox)).EndInit();
             this.ResumeLayout(false);
 
+        }
+
+        public void RefreshWindow()
+        {
+            this.CrossairPreview.BackgroundImage = Image.FromFile(Directory.GetCurrentDirectory() + "\\data\\crosshairs\\" + UserPreferances.Default.preferedCrosshair);
         }
 
         #endregion
@@ -167,5 +203,6 @@
         private System.Windows.Forms.Button Stop;
         private System.Windows.Forms.Button HideMenu;
         private System.Windows.Forms.NotifyIcon menuNotifyIcon;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }

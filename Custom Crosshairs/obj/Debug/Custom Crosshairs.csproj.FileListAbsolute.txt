@@ -1,4 +1,3 @@
-C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom Crosshairs.csprojAssemblyReference.cache
 C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom_Crosshairs.Properties.Resources.resources
 C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom Crosshairs.csproj.GenerateResource.cache
 C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom Crosshairs.csproj.CoreCompileInputs.cache
@@ -10,3 +9,4 @@ C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\
 C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom Crosshairs.pdb
 C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom_Crosshairs.MenuWindow.resources
 C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom_Crosshairs.SettingsWindow.resources
+C:\Users\jenso\Desktop\Custom Croshairs\Custom Crosshairs\Custom Crosshairs\obj\Debug\Custom Crosshairs.csprojAssemblyReference.cache

@@ -37,7 +37,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>true</Optimize>
+    <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -113,13 +113,20 @@
       <DependentUpon>MenuWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsWindow.resx">
       <DependentUpon>SettingsWindow.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\CrosshairWindow.datasource" />
+    <None Include="Properties\DataSources\Custom_Crosshairs.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\Custom_Crosshairs.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\MenuWindow.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\SettingsWindow.datasource" />
+    <None Include="Properties\DataSources\UserPreferances.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -166,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Basic_Crosshair.ico" />
+    <None Include="data\Images\Simple\PreferedCrosshair.png" />
     <None Include="data\Images\Simple\Crosshair_Dot_Tiny.png" />
     <None Include="data\Images\Simple\Crosshair_Dot_Small.png" />
     <None Include="data\Images\Simple\Crosshair_Dot_Medium.png" />

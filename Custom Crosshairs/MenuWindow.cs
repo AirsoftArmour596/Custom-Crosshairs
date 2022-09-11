@@ -12,37 +12,41 @@ namespace Custom_Crosshairs
 {
     public partial class MenuWindow : Form
     {
+        public Image crosshairImage;
+        CrosshairWindow crosshairWindow = new CrosshairWindow();
+        SettingsWindow settingsWindow = new SettingsWindow();
+
         public MenuWindow()
         {
             InitializeComponent();
             menuNotifyIcon.Visible = false;
         }
 
-        CrosshairWindow crosshair = new CrosshairWindow();
-        SettingsWindow settings = new SettingsWindow();
-
         private void ActivateCrosshair(object sender, MouseEventArgs e)
         {
-            crosshair.Show();
+            crosshairWindow.crosshairImage = this.crosshairImage;
+            crosshairWindow.IdentifyCaller(this);
+            crosshairWindow.Show();
         }
 
         private void EnterSettings(object sender, MouseEventArgs e)
         {
-            settings.Show();
-            crosshair.Hide();
+            settingsWindow.Show();
+            settingsWindow.IdentifyCaller(this);
+            crosshairWindow.Hide();
             this.Hide();
             menuNotifyIcon.Visible = false;
         }
 
         private void DeactivateCrosshair(object sender, MouseEventArgs e)
         {
-            crosshair.Hide();
+            crosshairWindow.Hide();
         }
 
         private void QuitProgram(object sender, MouseEventArgs e)
         {
-            crosshair.Close();
-            settings.Close();
+            crosshairWindow.Close();
+            settingsWindow.Close();
             this.Close();
             Application.Exit();
         }

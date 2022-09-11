@@ -117,29 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Basic_Crosshair" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\data\Images\Simple\Basic_Crosshair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Crosshair_Dot_Large" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\data\Images\Simple\Crosshair_Dot_Large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Crosshair_Dot_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\data\Images\Simple\Crosshair_Dot_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Crosshair_Dot_Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\data\Images\Simple\Crosshair_Dot_Small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Crosshair_Dot_Tiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\data\Images\Simple\Crosshair_Dot_Tiny.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Crosshair_Drop_Large" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\data\Images\Advanced\Crosshair_Drop_Large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Crosshair_Drop_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\data\Images\Advanced\Crosshair_Drop_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Crosshair_Drop_Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\data\Images\Advanced\Crosshair_Drop_Small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

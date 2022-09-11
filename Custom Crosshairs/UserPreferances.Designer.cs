@@ -25,34 +25,25 @@ namespace Custom_Crosshairs {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("/data/images/Advanced/Crosshair_Drop_Large.png")]
-        public string userImagePath {
+        [global::System.Configuration.DefaultSettingValueAttribute("Simple_Crosshair.png")]
+        public string preferedCrosshair {
             get {
-                return ((string)(this["userImagePath"]));
+                return ((string)(this["preferedCrosshair"]));
             }
             set {
-                this["userImagePath"] = value;
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("/data/images/Simple/Basic_Crosshair.png")]
-        public string defaultImagePath {
-            get {
-                return ((string)(this["defaultImagePath"]));
+                this["preferedCrosshair"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("f")]
-        public string none {
+        [global::System.Configuration.DefaultSettingValueAttribute("Simple_Crosshair.png")]
+        public string defaultCrosshair {
             get {
-                return ((string)(this["none"]));
+                return ((string)(this["defaultCrosshair"]));
             }
             set {
-                this["none"] = value;
+                this["defaultCrosshair"] = value;
             }
         }
     }
