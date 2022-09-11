@@ -7,6 +7,9 @@ make your own to personalise the center of the screen!
 
 / / / / / / / / / / Start of Devlog \ \ \ \ \ \ \ \ \ \
 
+V0.02.3, "Hellfire IV" [N/a, Work In Progress]
+Version 0.02.3 or "Hellfire IV" is under development
+
 V0.01.7, "Hellfire III" [0130hrs, 11/09/22]
 Expanded Preset Crosshair Collection to Eight (8) Images
 Added Functional Settings Menu that saves User Preferances
